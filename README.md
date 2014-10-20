@@ -4,6 +4,15 @@ golang-tdd
 Developing in Golang using Test Driven Development
 
 
+Compile and run without installing 
+==================================
+
+Enter the repository's root directory and run
+
+```
+go run qrcoded.go
+```
+
 
 Build
 =====
