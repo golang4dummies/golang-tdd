@@ -49,3 +49,12 @@ If ```$GOPATH/bin``` has been included in ```$PATH```, as suggested in [the offi
 golang-tdd
 ```
 
+
+Uninstall
+=========
+
+Run
+
+```
+go clean -i
+```
