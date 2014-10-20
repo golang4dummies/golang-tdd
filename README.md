@@ -1,7 +1,8 @@
 golang-tdd
 ==========
 
-Developing in Golang using Test Driven Development
+Studying the e-book [Test-driven development with Go](http://leanpub.com/golang-tdd) by [Yigal Duppen](https://github.com/publysher)
+
 
 
 Compile and run without installing 
