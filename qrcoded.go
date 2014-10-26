@@ -6,12 +6,12 @@ import (
 	)
 
 func main() {
-	fmt.Println("Hello QR Code");	fmt.Println("GenerateQRCode is nil")
+	fmt.Println("Hello QR Code");
 	
-	qrcode := GenerateQRCode("555-2368")
+	qrcode := GenerateQRCode("555-2368");	fmt.Printf("GenerateQRCode is %v", qrcode)
 	ioutil.WriteFile("qrcode.png", qrcode, 0644)
 }
 
 func GenerateQRCode(code string) []byte {
-	return nil
+	return []byte {0xFF}
 }
