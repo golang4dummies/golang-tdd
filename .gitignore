@@ -1,0 +1,14 @@
+# Eclipse
+.classpath
+.project
+.settings/**
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# GO compiled packages
+*.a
+
+# GO compiled commands (executables)
+*.exe
+
