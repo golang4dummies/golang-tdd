@@ -2,6 +2,8 @@ package main //golang-tdd
 
 import (
 	"testing"
+	"bytes"
+	"image/png"
 )
 
 func TestGenerateQRCodeReturnsValue(t *testing.T) {
@@ -14,5 +16,14 @@ func TestGenerateQRCodeReturnsValue(t *testing.T) {
 	if len(result) == 0 {
 		t.Errorf("Generated QR code lenght is zero")
 	}
+}
 
+func TestGenerateQRCodeGeneratesPNG(t *testing.T) {
+	result := GenerateQRCode("555-2368")
+	buffer := bytes.NewBuffer(result)
+	_, err := png.Decode(buffer)
+	
+	if err != nil {
+		t.Errorf("Generated QR Code is not a PNG: %s", err)
+	}
 }
