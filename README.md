@@ -1,4 +1,4 @@
-golang-tdd
+golang-tdd [![Build Status](https://travis-ci.org/golang4dummies/golang-tdd.svg?branch=master)](https://travis-ci.org/golang4dummies/golang-tdd)
 ==========
 
 Studying the e-book [Test-driven development with Go](http://leanpub.com/golang-tdd) by [Yigal Duppen](https://github.com/publysher)
