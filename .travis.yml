@@ -1,12 +1,13 @@
 language: go
-go: 
- - 1.1
- - 1.2
- - 1.3
- - 1.4
- - release
- - tip
-
+go:
+- 1.1
+- 1.2
+- 1.3
+- 1.4
+- release
+- tip
 script:
- - go test -v ./...
- 
+- go test -v ./...
+notifications:
+  slack:
+    secure: QXKHyBFQlCYkCc11/q1icez4K2+Z0bCWGcbiVV2NGrn6YEDy+LgWM2EXIpDMk0Ou5yv/LpldAeEpIo7rP9Ox9ye3DRLbIX39F/RXoFD0Ux9Y532fdzag71D3TsJQkA+igEEfswd+4mwSNRZuh9/GSWcfvFqvibNAuQLc5njJw+E=
