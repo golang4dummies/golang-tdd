@@ -10,6 +10,7 @@ local.properties
 *.a
 
 # GO compiled commands (executables)
+golang-tdd*
 *.exe
 
 # project specific sub products
